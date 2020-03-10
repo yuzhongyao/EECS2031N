@@ -1,0 +1,33 @@
+
+EECS2031    Page    1of    3LAB    1    
+─Introduction    to    C    and    Basic    I/OSubmit    the    solutions,    C    programs,    to    the    following    problems    underthe    “labtest”    mode    on    September    15    or    18.1.   
+Problem    A1.1    SpecificationWrite    a    C    program    to    convert    measurements    from    inches    to    centimetres    (1    inch    =    2.54    cm).       
+The    program    reads    a    measurement    in    inches    and    outputs    the    equivalent    measurement    in    centimetres.   
+It    then    continues    to    read    and    convert    the    next    measurements    until    a    zero    is    entered.   
+1.2    ImplementationThe    program    should:•be    named    lab1a.c•use    a    loop    to    read    and    convert    one    input    at    a    time.  
+The    loop    ends    and    the    program    terminates    when    the    input    is    zero.   
+•display    before    each    input    the    following    prompt:    Enter the measurement in inches>•use    scanfto    read    inputs,    which    are    measurements    in    inches,    of    type    float.
+•display    the    outputs    in    centimetres    with    two    decimal    digits.    1.3   
+Sample    Inputs/Outputs:indigo 336 %lab1a
+Enter the measurement in inches>25.08 cm
+Enter the measurement in inches>5.513.97 cm
+Enter the measurement in inches>10.76527.34 cm
+Enter the measurement in inches>0
+EECS2031    Page    2of    3indigo 337%2.  
+Problem    B2.1    SpecificationWrite    a    C    program    to    count    the    number    of    blank    characters    (white    spaces)    in    a    line    of    characters.  
+The    program    reads    from    the    standard    input    a    line    of    characters    and    outputs    the number    of    blank    characters    found    in    the    line. 
+2.2    ImplementationThe    program    should:•be    named    lab1b.c•use    getcharand    a    loop    to    read    a    line    of    characters    which    is    terminated    by    the    new    line    character    ‘\n’.
+•display    the    following    prompt    before    each    input:Enter a line of characters>2.3  
+Sample    Inputs/Outputs:indigo 352%lab1bEnter a line of characters>Welcome to CSE 2031.3indigo 353%lab1bEnter a line of characters>1234567890indigo 354%lab1bEnter a line of characters>a b c d e f g h7indigo 355%
+EECS2031    Page    3of    33.    Problem    CRepeat    problem    A,    but    do    not    display    the    prompt    “Enter the measurement in inches>”.Name    this    program    lab1c.c.4.   
+Problem    D Repeat    problem    B,    but    do    not    display    the    prompt    “Enter a line of characters>”.Name    this    program    lab1d.c.
+Common    NotesAll    submitted    files    should    contain    the    following    header:
+/****************************************EECS2031 –Lab1*Filename:Name of file* 
+Author: Last name, first name
+*Email: Your preferred email address
+*EECSlogin ID: Your EECSlogin ID****************************************/
+In    addition,    all    programs    should    follow    the    following    guidelines:
+•Include    the    stdio.hlibrary    in    the    header    of    your    .cfiles.
+•Use    printfto    print    texts    and    outputs    according    to    the    required    formats.   
+•End    each    output    result    with    a    new    line    character    ‘\n’.
+•Assume    that    all    inputs    are    valid    (no    error    checkingis    required).
